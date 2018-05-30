@@ -1,4 +1,4 @@
-FROM bitnami/redhat-extras:7-r2
+FROM bitnami/rhel-extras-7:7-r4
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 ENV BITNAMI_PKG_CHMOD="-R g+rwX" \
